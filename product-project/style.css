@@ -1,0 +1,178 @@
+@import 'https://fonts.googleapis.com/css?family=Lato:400,700';
+
+
+body {
+  background: #eee;
+  font-family: 'Lato', sans-serif;
+}
+
+#header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+ 
+}
+
+#header-img {
+  max-width: 300px;
+  height: 40px;
+}
+
+#nav-bar {
+  width: 50%;
+  margin-right: 3rem;
+}
+
+.nav-list {
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #333;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 4rem;
+}
+
+.container {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+#email {
+  width: 250px;
+  margin-bottom: 1rem;
+}
+
+#submit {
+  width: fit-content;
+  border: none;
+  background: rgb(255, 220, 21);
+  font-weight: bold;
+  font-size: 1.2rem;
+  font-family: 'Lato', sans-serif;
+  transition: 1s;
+  cursor: pointer;
+  padding: 0.4rem;
+}
+
+#submit:hover, .button-select:hover{
+  background: orange;
+}
+
+.button-select {
+  width: fit-content;
+  border: none;
+  background: rgb(255, 220, 21);
+  font-size: 1.2rem;
+  font-family: 'Lato', sans-serif;
+  transition: 1s;
+  cursor: pointer;
+  padding: 0.4rem 1rem;
+  margin: 1.5rem 0;
+}
+
+
+
+.icon {
+  font-size: 3rem;
+  width: 20vw;
+}
+
+.icons {
+  display: flex;
+  width: 200px;
+  justify-content: center;
+  text-align: center;
+}
+
+.features {
+  display: block;
+}
+
+.features-row {
+  display: flex;
+  justify-content: center;
+}
+
+.description {
+  width: calc(100% - 200px);
+}
+
+#video {
+  text-align: center;
+  margin: 4rem auto;
+}
+
+iframe {
+  width: 60%;
+}
+
+.pricing {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+h3 {
+  background: #ccc;
+  padding: 2rem;
+  text-align: center;
+  margin-top: 0;
+}
+
+.card {
+  width: calc(100% / 3);
+  margin: 0 1rem;
+  border: solid 1px; 
+}
+
+.card-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 2;
+}
+
+p {
+  margin: 0;
+}
+
+.footer {
+  background: #ddd;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.nav-footer {
+  display: flex;
+  list-style: none;
+  justify-content: flex-end;
+  margin-bottom: 0.3rem;
+}
+
+.nav-footer li {
+  margin-right: 1rem;
+}
+
+.footer-c {
+  color: #666;
+  font-size: 0.9rem;
+  margin-right: 1rem;
+  padding-bottom: 1.5rem;
+}
