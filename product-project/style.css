@@ -11,7 +11,9 @@ body {
   justify-content: space-between;
   align-items: center;
   width: 100%;
- 
+  position: fixed;
+  background: #eee;
+  top: 0;
 }
 
 #header-img {
@@ -35,6 +37,9 @@ body {
   color: #333;
 }
 
+h1 {
+  margin-top: 5rem;
+}
 form {
   display: flex;
   flex-direction: column;
@@ -175,4 +180,58 @@ p {
   font-size: 0.9rem;
   margin-right: 1rem;
   padding-bottom: 1.5rem;
+}
+
+.price {
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+
+
+@media screen and (max-width:768px) {
+  .container {
+    width: 100%;
+  }
+
+  .icons {
+    display: none;
+  }
+
+  #header-img {
+    display: none;
+  }
+
+  #header {
+    justify-content: center;
+    margin: 0;
+    width: 100%;
+  }
+
+  #nav-bar {
+    width: 100%;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  .description {
+    width: 100%;
+    text-align: center;
+  }
+
+  .pricing {
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+  }
+
+  .card {
+    margin-bottom: 1rem;
+    width: 60%;
+  }
+
+  #video iframe{
+    width: 100%;
+  }
 }
